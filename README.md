@@ -21,7 +21,7 @@ In this repository I present simple examples for the main **javascript methods**
 [document.getElementsByTagName('li')](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/DOM%20manipulation/GetElement%20Types/getElementsByTagName.html) --- Select an element by this tag name  
 [createElement()](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/DOM%20manipulation/Child%20Manipulation/appendChild.html) --- Creates a new HTML element in the DOM  
 [getAttribute()](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/DOM%20manipulation/Element%20Manipulation/getAttribute.html) --- Gets the attribute value  
-[object.setAttribute('class', 'textRed')"](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/DOM%20manipulation/Element%20Manipulation/setAttribute.html) --- Sets a new attribute value for a selecte object  
+[object.setAttribute('class', 'value')"](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/DOM%20manipulation/Element%20Manipulation/setAttribute.html) --- Sets a new attribute value for a selected object  
 [object.classList.toggle("red")](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/DOM%20manipulation/Element%20Manipulation/toggle.html) --- Every click changes the object condition to the opposite  
 [object.innerHTML](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/DOM%20manipulation/Element%20Manipulation/innerHTML.html) --- Acesse the content of a selected object in the html. We can change it value.  
 
