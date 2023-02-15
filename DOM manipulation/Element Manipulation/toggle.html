@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<head>
+  <style>
+
+    .red {
+      background-color: red;
+    }
+
+    .blue {
+      background-color: blue;
+    }
+
+    .green {
+      background-color: green;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <button id="redButton">Red</button>
+  <button id="blueButton">Blue</button>
+  <button id="greenButton">Green</button>
+
+  <script>
+
+    const redButton = document.querySelector('#redButton');
+    const blueButton = document.querySelector('#blueButton');
+    const greenButton = document.querySelector('#greenButton');
+    
+    redButton.setAttribute('onclick', 'red()')
+    blueButton.setAttribute('onclick', 'blue()')
+    greenButton.setAttribute('onclick', 'green()')
+
+    function red() {
+      redButton.classList.toggle("red")
+    }
+
+    function blue() {
+      blueButton.classList.toggle("blue")
+    }
+
+    function green() {
+      greenButton.classList.toggle("green")
+    }
+
+  </script>
+
+</body>
+
+</html>

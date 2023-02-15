@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+
+<!-- Subistituir um dos elementos -->
+
+<body>
+
+  <ul>
+    <li>This is the First Paragraph</li>
+    <li>This is the Second Paragraph</li>
+    <li>This is the Third Paragraph</li>
+  </ul>
+
+  <!-- <script>
+    let myUl = document.querySelector('ul');
+
+    let myFirstLi = myUl[0];
+    let mySecondLi = myUl[1];
+    let myThirdLi = myUl[2];
+
+    let newLi = document.createElement('li');
+    newLi.textContent = 'This is a new Paragraph';
+    
+    // Replacing paragraph
+    myUl.replaceChild(newLi, mySecondLi);
+
+  </script> -->
+
+  <script>
+
+    let myUl = document.querySelector('ul');
+
+    let myFirstLi = document.querySelector('li');
+    // Creating new elememt
+    let newLi = document.createElement('li');
+
+    // creates a new text node
+    newLi.textContent = 'This is a new Paragraph';
+
+    // Replacing old paragraph with newly created paragraph
+    myUl.replaceChild(newLi, myFirstLi);
+
+  </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<body>
+ 
+  <h1>Hello World</h1>
+
+  <ul>
+    <li class="mainTitle">first child</li>
+    <li class="secondTitle">second child</li>
+    <li class="mainTitle">third child</li>
+    <li class="secondTitle">second child</li>
+  </ul>
+
+  <script>
+
+    // GET ELEMENTS BY TAG NAME
+    const element = document.getElementsByTagName("li");
+
+    for (let i = 0; i < element.length; i++) {
+      element[i].style.color = 'blue'
+    };
+
+    // QUERY SELECTOR ALL
+    const element2 = document.querySelectorAll("li");
+    
+    for (let i = 0; i < element2.length; i++) {
+      element2[i].style.backgroundColor = 'red'
+    };
+
+  </script>
+
+</body>
+</html>

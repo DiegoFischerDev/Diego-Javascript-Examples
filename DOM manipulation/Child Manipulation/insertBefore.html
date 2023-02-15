@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<!-- This method inserts a node before the reference node as a child of a specified parent node. That is, it adds a specific child element before another child element.
+
+Methods To Be Used In the Code Example
+querySelector() --- Helps us to target the element in the DOM
+
+createElement() --- Helps us to create a new HTML element in the DOM
+
+textContent ---Helps us to set a given text to the Node -->
+
+
+
+<body>
+
+  <div>
+    <ul>
+      <li>I am number one</li>
+      <li>I am number two</li>
+      <li>I am number three</li>
+    </ul>
+  </div>
+
+  <script>
+
+    // Creates a new div element
+    let myFirstLi = document.querySelector('li');
+
+    // Creates a new element
+    let newLi = document.createElement('li');
+
+    // creates a new text node
+    newLi.innerHTML = 'I am the new number one';
+
+    //Reference to the parent element
+    let myUl = document.querySelector('ul');
+
+    //Appends new element to DOM
+    myUl.insertBefore(newLi, myFirstLi);
+
+  </script>
+</body>
+
+</html>

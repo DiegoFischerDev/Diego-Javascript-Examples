@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<!-- The appendChild() method like i said earlier creates a new element and adds it to the parent node. It is important to note that the appendChild() method adds the new element at the end of any other children of a specified parent node.
+
+Methods To Be Used In the Code Example:
+querySelector() --- Helps us to target the element in the DOM
+createElement() --- Helps us to create a new HTML element in the DOM
+prompt() --- Ask a value for the user -->
+
+
+<!DOCTYPE html>
+
+<body>
+
+  <h1></h1>
+
+  <div></div>
+
+
+  <script>
+
+    const title = document.querySelector("h1");
+    const div = document.querySelector("div");
+    const buttonLogIn = document.createElement("button");
+    const buttonLogOut = document.createElement("button");
+
+
+    buttonLogIn.innerText = "Log In";
+    buttonLogIn.onclick = ()=>{LogIn()}
+    buttonLogOut.innerText = "Log Out";
+    buttonLogOut.onclick = ()=>{LogOut()}
+
+    title.innerHTML = `Hello!`;
+    div.appendChild(buttonLogIn);
+
+
+    function LogIn(){
+      let name = prompt("Name");
+      let password = prompt("Password");
+
+      let mensagem = `Name: ${name}<br>Password: ${password}<br>`
+      div.innerHTML = mensagem;
+
+      title.innerHTML = `Wellcome ${name}!`;
+
+      div.appendChild(buttonLogOut);
+    }
+
+    function LogOut(){
+
+      title.innerHTML = `Hello!`;
+      div.innerHTML = "";
+
+      div.appendChild(buttonLogIn);
+    }
+
+  </script>
+</body>
+
+</html>

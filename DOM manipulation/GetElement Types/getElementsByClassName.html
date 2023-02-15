@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<body>
+ 
+  <h1>Hello World</h1>
+
+  <ul>
+    <li class="mainTitle">first child</li>
+    <li class="secondTitle">second child</li>
+    <li class="mainTitle">first child</li>
+    <li class="secondTitle">second child</li>
+    <li class="mainTitle">first child</li>
+    <li class="secondTitle">second child</li>
+    <li class="mainTitle">first child</li>
+    <li class="secondTitle">second child</li>
+  </ul>
+
+  <script>
+
+    // GET ELEMENTS BY CLASS NAME
+    const myVariable = document.getElementsByClassName('mainTitle');
+
+    for (let i = 0; i < myVariable.length; i++) {
+      myVariable[i].style.color = 'red'
+    };
+
+    // QUERY SELECTOR ALL
+    const myVariable2 = document.querySelectorAll('.secondTitle');
+
+    for (let i = 0; i < myVariable2.length; i++) {
+      myVariable2[i].style.color = 'blue'
+    };
+
+    // QUERY SELECTOR
+    const myVariable3 = document.querySelector('.secondTitle');
+
+    myVariable3.style.color = 'black'
+
+  </script>
+
+</body>
+</html>

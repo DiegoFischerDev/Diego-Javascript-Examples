@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<body>
+
+  <h1 id="Title"></h1>
+
+  <div class="container"></div>
+
+  <ul></ul>
+
+  <script>
+
+    // Most used
+
+    const title = document.getElementById("Title");
+    title.innerHTML = "Hello, Word!"
+
+    // Other way to do it:
+
+    const el = document.querySelector(".container");
+    el.textContent = "Just simple text";
+
+    // Other exemple:
+
+    const list = document.querySelector("ul")
+    list.innerHTML = "<li>Item 1</li> <li>Item 2</li> <li>Item 3</li>"
+    
+
+  </script>
+</body>
+
+</html>

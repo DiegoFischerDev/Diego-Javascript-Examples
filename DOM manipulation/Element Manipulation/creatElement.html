@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<body>
+
+  <h1></h1>
+
+  <div></div>
+
+
+  <script>
+
+    const title = document.querySelector("h1");
+    const div = document.querySelector("div");
+    const buttonLogIn = document.createElement("button");
+    const buttonLogOut = document.createElement("button");
+
+
+    buttonLogIn.innerText = "Log In";
+    buttonLogIn.onclick = ()=>{LogIn()}
+    buttonLogOut.innerText = "Log Out";
+    buttonLogOut.onclick = ()=>{LogOut()}
+
+    title.innerHTML = `Hello!`;
+    div.appendChild(buttonLogIn);
+
+
+    function LogIn(){
+      let name = prompt("Name");
+      let password = prompt("Password");
+
+      let mensagem = `Name: ${name}<br>Password: ${password}<br>`
+      div.innerHTML = mensagem;
+
+      title.innerHTML = `Wellcome ${name}!`;
+
+      div.appendChild(buttonLogOut);
+    }
+
+    function LogOut(){
+
+      title.innerHTML = `Hello!`;
+      div.innerHTML = "";
+
+      div.appendChild(buttonLogIn);
+    }
+
+  </script>
+</body>
+
+</html>
