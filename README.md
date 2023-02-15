@@ -15,7 +15,7 @@ In this repository I present simple examples for the main **javascript methods**
 
 :small_blue_diamond: **DOM Manipulation**  
 
-[querySelector(.calssName)](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/DOM%20manipulation/Child%20Manipulation/appendChild.html) --- Get the element in the DOM  
+[querySelector(".calssName")](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/DOM%20manipulation/Child%20Manipulation/appendChild.html) --- Get the element in the DOM  
 [document.getElementById('mainTitle')](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/DOM%20manipulation/GetElement%20Types/getElementById.html) --- Select an element by this ID  
 [document.getElementsByClassName('mainTitle')](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/DOM%20manipulation/GetElement%20Types/getElementsByClassName.html) --- Select an element by this class name  
 [document.getElementsByTagName('li')](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/DOM%20manipulation/GetElement%20Types/getElementsByTagName.html) --- Select an element by this tag name  
