@@ -10,8 +10,20 @@ In this repository I present simple examples for the main **javascript methods**
 
 [location.reload()](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Dates%20manipulation/newDate.html) --- Reload the HTML  
 [object.addEventListener("click", ()=>{ })](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Dates%20manipulation/newDate.html) --- Add function for an element  
+[onclick="function()"](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/DOM%20manipulation/Element%20Manipulation/onclick.html) --- Executes a function when the element is clicked  
+[prompt()](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/DOM%20manipulation/Child%20Manipulation/appendChild.html) --- Ask a value for the user  
 
-:small_blue_diamond: **DOM Manipulation**
+:small_blue_diamond: **DOM Manipulation**  
+
+[querySelector()](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/DOM%20manipulation/Child%20Manipulation/appendChild.html) --- Get the element in the DOM  
+[createElement()](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/DOM%20manipulation/Child%20Manipulation/appendChild.html) --- Creates a new HTML element in the DOM  
+[getAttribute()](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/DOM%20manipulation/Element%20Manipulation/getAttribute.html) --- Gets the attribute value  
+[object.setAttribute('class', 'textRed')"](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/DOM%20manipulation/Element%20Manipulation/setAttribute.html) --- Sets a new attribute value for a selecte object  
+[object.classList.toggle("red")](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/DOM%20manipulation/Element%20Manipulation/toggle.html) --- Every click changes the object condition to the opposite  
+[object.innerHTML](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/DOM%20manipulation/Element%20Manipulation/innerHTML.html) --- Acesse the content of a selected object in the html. We can change it value.  
+[document.getElementById('mainTitle')](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/DOM%20manipulation/GetElement%20Types/getElementById.html) --- Select an element by this ID  
+[document.getElementsByClassName('mainTitle')](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/DOM%20manipulation/GetElement%20Types/getElementsByClassName.html) --- Select an element by this class name  
+[document.getElementsByTagName('li')](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/DOM%20manipulation/GetElement%20Types/getElementsByTagName.html) --- Select an element by this tag name 
 
 :small_blue_diamond: **Date Manipulation**  
 
