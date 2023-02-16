@@ -1,0 +1,52 @@
+<!-- there is a difference between the two methods that you need to understand
+
+Methods To Be Used In the Code Example:
+object.innerHTML --- Get or set the content of the object. It can creates new tags inside de object
+object.innertext --- Get or set only the text content of the object
+-->
+
+
+<!DOCTYPE html>
+
+<body>
+
+  <h1>Exemple 1</h1>
+  <div class="div1"></div>
+  <div class="div2"></div>
+
+
+  <h1>Exemple 2</h1>
+  <div class="div3">
+    This is Div3
+    <button>Click Here</button>
+    <br><br><br>
+  </div>
+
+  <div class="div4"></div>
+  <div class="div5"></div>
+
+  <script>
+
+    // Exemple 1 - Setting value
+
+    const div1 = document.querySelector(".div1");
+    const div2 = document.querySelector(".div2");
+
+    div1.innerHTML = "<h3>Hello, Word!</h3>"; // that is OK for innerHTML
+    div2.innerText = "<h3>Hello, Word!</h3>"; // that is NOT OK for innerText
+
+    // Exemple 2 - Setting and Getting value
+
+    const div3 = document.querySelector(".div3");
+    const div4 = document.querySelector(".div4");
+    const div5 = document.querySelector(".div5");
+
+    div4.innerHTML = `div3 HTML value is -------> ${div3.innerHTML}`
+    div5.innerHTML = `div3 Text value is only ---> ${div3.innerText}`
+
+    
+
+  </script>
+</body>
+
+</html>
