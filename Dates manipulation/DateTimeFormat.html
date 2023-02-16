@@ -1,0 +1,55 @@
+<!-- The Intl.DateTimeFormat() object enables language-sensitive date and time formatting.
+
+Methods To Be Used In the Code Example:
+new Date() --- Returns the current time and date
+new Intl.DateTimeFormat().format(date) --- The date and time formats can be customized using the options argument
+-->
+
+<!DOCTYPE html>
+<body>
+ 
+  <h1>Date and Time Formats</h1>
+  <div></div>
+
+  <script>
+
+    let date = new Date();
+    const div = document.querySelector("div");
+
+    // first example
+    const text1 = document.createElement("h3");
+    let dateUsa = new Intl.DateTimeFormat('en-US').format(date)
+    text1.innerHTML = `USA format: <br>${dateUsa} <br>`
+    div.append(text1)
+
+    // Second example -- the default locale, and the default time zone
+    const text2 = document.createElement("h3")
+    let dateDefault = new Intl.DateTimeFormat().format(date)
+    text2.innerHTML = `Default format: <br>${dateDefault} <br>`
+    div.append(text2)
+    
+    // Third example
+
+    let options = {
+    weekday: "long", // options: "numeric" "2-digit" "long" "short" "narrow"
+    year: "numeric", // options: "numeric" "2-digit" "long" "short" "narrow"
+    month: "short", // options: "numeric" "2-digit" "long" "short" "narrow"
+    day: "numeric", // options: "numeric" "2-digit" "long" "short" "narrow"
+    };
+
+    const text3 = document.createElement("h3");
+    let dateEng = new Intl.DateTimeFormat('en-GB', options).format(date)
+    text3.innerHTML = `Optional format: <br>${dateEng} <br>`
+    div.append(text3)
+
+    // fourth example
+    const text4 = document.createElement("h3");
+    let dateBr = new Intl.DateTimeFormat('pt-BR', {dateStyle: 'long', timeStyle: 'short'}).format(date)
+    text4.innerHTML = `Date and time format: <br>${dateBr} <br>`
+    div.append(text4)
+
+
+  </script>
+
+</body>
+</html>
