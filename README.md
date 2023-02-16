@@ -23,7 +23,8 @@ In this repository I present simple examples for the main **javascript methods**
 [getAttribute()](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/DOM%20manipulation/Element%20Manipulation/getAttribute.html) --- Gets the attribute value  
 [object.setAttribute('class', 'value')"](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/DOM%20manipulation/Element%20Manipulation/setAttribute.html) --- Sets a new attribute value for a selected object  
 [object.classList.toggle("red")](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/DOM%20manipulation/Element%20Manipulation/toggle.html) --- Every click changes the object condition to the opposite  
-[object.innerHTML](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/DOM%20manipulation/Element%20Manipulation/innerHTML.html) --- Acesse the content of a selected object in the html. We can change it value.  
+[object.innerHTML](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/DOM%20manipulation/Element%20Manipulation/innerText-innerHTML.html) --- Get or set the content of the object. It can creates new tags inside de object    
+[object.innertext](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/DOM%20manipulation/Element%20Manipulation/innerText-innerHTML.html) --- Get or set only the text content of the object
 
 
 :small_blue_diamond: **Date Manipulation**  
