@@ -29,13 +29,14 @@ In this repository I present simple examples for the main **javascript methods**
 :small_blue_diamond: **Date Manipulation**  
 
 [new Date()](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Dates%20manipulation/newDate.html) --- Returns the current time and date  
-[date.getDay()](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Dates%20manipulation/newDate.html) --- Returns de day of the week only [0 ~ 6]    
+[date.getDay()](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Dates%20manipulation/newDate.html) --- Returns de day of the week only [0 ~ 6]   
 [date.getDate()](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Dates%20manipulation/newDate.html) --- Returns de day only [1 ~ 31]  
 [date.getMonth()](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Dates%20manipulation/newDate.html) --- Returns de month only [0 ~ 11]    
 [date.getFullYear()](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Dates%20manipulation/newDate.html) --- Returns de year only  
 [date.getHours()](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Dates%20manipulation/newDate.html) --- Returns de Hours only  
 [date.getMinutes()](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Dates%20manipulation/newDate.html) --- Returns de Minutes only  
 [date.getSeconds()](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Dates%20manipulation/newDate.html) --- Returns de Seconds only  
+[new Intl.DateTimeFormat().format(date)](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Dates%20manipulation/DateTimeFormat.html) --- The date and time formats can be customized using the options argument 
 
 
 
