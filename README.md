@@ -16,7 +16,7 @@ In this repository I present simple examples for the main **javascript methods**
 [location.reload()](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Dates%20manipulation/newDate.html) --- Reload the HTML  
 [object.addEventListener("click", ()=>{ })](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Dates%20manipulation/newDate.html) --- Add function for an element  
 [onclick="function()"](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/DOM%20manipulation/Element%20Manipulation/onclick.html) --- Executes a function when the element is clicked  
-[prompt()](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/DOM%20manipulation/Child%20Manipulation/appendChild.html) --- Ask a value for the user  
+[prompt()](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/DOM%20manipulation/Child%20Manipulation/appendChild.html) --- Ask a value to the user  
 
 :small_blue_diamond: **DOM Manipulation**  
 
@@ -42,8 +42,10 @@ In this repository I present simple examples for the main **javascript methods**
 [date.getHours()](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Dates%20manipulation/newDate.html) --- Returns de Hours only  
 [date.getMinutes()](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Dates%20manipulation/newDate.html) --- Returns de Minutes only  
 [date.getSeconds()](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Dates%20manipulation/newDate.html) --- Returns de Seconds only  
-[new Intl.DateTimeFormat().format(date)](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Dates%20manipulation/DateTimeFormat.html) --- The date and time formats can be customized using the options argument 
+[new Intl.DateTimeFormat().format(date)](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Dates%20manipulation/DateTimeFormat.html) --- The date and time formats can be customized using the options argument  
 
+:small_blue_diamond: **Arrays and Objects Manipulation**  
 
+[spread(...)](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Array%20Manipulation/Spread.html) --- Spread syntax "expands" an array into its elements  
 
 
