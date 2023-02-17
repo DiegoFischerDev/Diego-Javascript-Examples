@@ -16,7 +16,7 @@ In this repository I present simple examples for the main **javascript methods**
 [location.reload()](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Dates%20manipulation/newDate.html) --- Reload the HTML  
 [object.addEventListener("click", ()=>{ })](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Dates%20manipulation/newDate.html) --- Add function for an element  
 [onclick="function()"](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/DOM%20manipulation/Element%20Manipulation/onclick.html) --- Executes a function when the element is clicked  
-[prompt()](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/DOM%20manipulation/Child%20Manipulation/appendChild.html) --- Ask a value for the user  
+[prompt()](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/DOM%20manipulation/Child%20Manipulation/appendChild.html) --- Ask a value to the user  
 
 :small_blue_diamond: **DOM Manipulation**  
 
