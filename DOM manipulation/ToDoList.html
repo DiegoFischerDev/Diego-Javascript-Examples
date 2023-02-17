@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To Do List</title>
+</head>
+
+<body>
+
+  <h1>To Do List</h1>
+  <input placeholder="New Item">
+  <button onclick="addItem()">Add</button>
+  
+  <ul>
+  </ul>
+
+
+  <script>
+
+    const ul = document.querySelector('ul');
+    const input = document.querySelector('input');
+    const button = document.querySelector('button');
+    
+    let ToDoList = JSON.parse(localStorage.getItem("@ToDoList")) || [];
+
+    displayToDoList(ToDoList);
+  
+    
+    function displayToDoList(array) {
+      ul.innerHTML = '';
+      for (let i = 0; i < array.length; i++) {
+        const li = document.createElement("li");
+        li.innerHTML = `${array[i]} <a href='#' onclick='deleteItem(${i});'>Excluir</a>`
+        ul.appendChild(li);
+      }
+    }
+
+    function addItem() {
+      ToDoList.push(input.value);
+      input.value = '';
+      displayToDoList(ToDoList);
+      saveData();
+    }
+
+    function deleteItem(i) {
+      ToDoList.splice(i, 1);
+      displayToDoList(ToDoList);
+      saveData();
+    }
+
+    function saveData() {
+      localStorage.setItem("@ToDoList", JSON.stringify(ToDoList));
+    }
+
+
+  </script>
+</body>
+
+</html>
