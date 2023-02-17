@@ -42,8 +42,10 @@ In this repository I present simple examples for the main **javascript methods**
 [date.getHours()](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Dates%20manipulation/newDate.html) --- Returns de Hours only  
 [date.getMinutes()](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Dates%20manipulation/newDate.html) --- Returns de Minutes only  
 [date.getSeconds()](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Dates%20manipulation/newDate.html) --- Returns de Seconds only  
-[new Intl.DateTimeFormat().format(date)](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Dates%20manipulation/DateTimeFormat.html) --- The date and time formats can be customized using the options argument 
+[new Intl.DateTimeFormat().format(date)](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Dates%20manipulation/DateTimeFormat.html) --- The date and time formats can be customized using the options argument  
 
+:small_blue_diamond: **Arrays and Objects Manipulation**  
 
+[spread(...)](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Array%20Manipulation/Spread.html) --- Spread syntax "expands" an array into its elements  
 
 
