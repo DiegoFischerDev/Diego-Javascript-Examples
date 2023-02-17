@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<body>
+ 
+  <h1>Spread</h1>
+  <div></div>
+
+  <script>
+
+    // Example for arrays
+    let array1 = [1, 2, 3, 4];
+    let array2 = [5, 6, 7, 8, 9, 10];
+    let array3 = [];
+
+    array3 = [...array1, ...array2, 11, 12, 13];
+
+
+    // Example for Object
+    let person = {
+      name: "Diego",
+      age: 30,
+      adress: "Portugal"
+    }
+
+    let status = {
+      job: "Developer",
+      language: "English",
+      children: 0
+    }
+
+    let object = {
+      ...person,
+      ...status,
+      course: "Full stack"
+    }
+
+
+    // Display results
+    document.querySelector('div').innerHTML = `array3: ${array3}`;
+    console.table(object)
+
+  </script>
+
+</body>
+</html>
