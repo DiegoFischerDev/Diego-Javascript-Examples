@@ -1,0 +1,27 @@
+<!-- Map goes through the entire array and can execute a action for each item in the array -->
+
+
+<!DOCTYPE html>
+<body>
+ 
+  <h1>Map Example</h1><br>
+  <h2>myArray = ["Jhon", "Maria", "Bolsonaro", "Lula"]</h2><br><br>
+  <div></div>
+
+  <script>
+
+    const text = document.querySelector('div');
+    const h2 = document.querySelector('h2');
+
+    const myArray = ["Jhon", "Maria", "Bolsonaro", "Lula"];
+
+    myArray.map((name, index) => {
+      let nextName = document.createElement('h3');
+      nextName.innerText = `The name in position ${index} is ${name}`;
+      text.appendChild(nextName);
+    })
+
+  </script>
+
+</body>
+</html>
