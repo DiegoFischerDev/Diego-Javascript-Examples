@@ -46,6 +46,8 @@ In this repository I present simple examples for the main **javascript methods**
 
 :small_blue_diamond: **Arrays and Objects Manipulation**  
 
-[spread(...)](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Array%20Manipulation/Spread.html) --- Spread syntax "expands" an array into its elements  
+[spread(...)](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Array%20Manipulation/Spread.html) --- Spread syntax "expands" an array into its elements   
+[RestOperator(...)](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Array%20Manipulation/RestOperator.html) --- The rest parameter syntax allows a function to accept an indefinite number of arguments as an array   
+
 
 
