@@ -48,7 +48,7 @@ In this repository I present simple examples for the main **javascript methods**
 
 [spread(...)](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Array%20Manipulation/Spread.html) --- Spread syntax "expands" an array into its elements   
 [restOperator(...)](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Array%20Manipulation/RestOperator.html) --- The rest parameter syntax allows a function to accept an indefinite number of arguments as an array   
-[array.map](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Array%20Manipulation/Map.html) --- Map goes through the entire array and can execute a action for each item in the array   
+[array.map](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Array%20Manipulation/Map.html) --- Map goes through the entire array and can execute an action for each item in the array   
 [array.find](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Array%20Manipulation/Find.html) --- Returns The value of the first element that pass the test. Otherwise it returns undefined.   
 [array.filter](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Array%20Manipulation/Filter.html) --- Returns an array of elements that pass the test. If no elements pass the test it returns an empty array.   
 
