@@ -48,6 +48,8 @@ In this repository I present simple examples for the main **javascript methods**
 
 [spread(...)](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Array%20Manipulation/Spread.html) --- Spread syntax "expands" an array into its elements   
 [restOperator(...)](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Array%20Manipulation/RestOperator.html) --- The rest parameter syntax allows a function to accept an indefinite number of arguments as an array   
+[array.map](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Array%20Manipulation/Map.html) --- Map goes through the entire array and can execute a action for each item in the array   
+
 
 
 
