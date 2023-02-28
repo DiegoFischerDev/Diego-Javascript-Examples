@@ -51,6 +51,9 @@ In this repository I present simple examples for the main **javascript methods**
 [array.map](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Array%20Manipulation/Map.html) --- Map goes through the entire array and can execute an action for each item in the array   
 [array.find](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Array%20Manipulation/Find.html) --- Returns The value of the first element that pass the test. Otherwise it returns undefined.   
 [array.filter](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Array%20Manipulation/Filter.html) --- Returns an array of elements that pass the test. If no elements pass the test it returns an empty array.   
+[array.includes](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Array%20Manipulation/Includes.html) --- Returns true if the value is found, otherwise false.   
+[endsWith and startsWith](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Array%20Manipulation/StartsWith-EndsWith.html) --- Returns true if the string starts with given characters, otherwise false.     
+
 
 
 
