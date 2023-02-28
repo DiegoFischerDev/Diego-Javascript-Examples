@@ -18,13 +18,9 @@ The find() method does not change the original array. -->
 
   <script>
 
-
-    const h2 = document.querySelector('h2');
-    const h3 = document.querySelector('h3');
-
     const myArray = [11, 14, 6, 23, 17, 20, 33];
 
-    h3.innerText = myArray.find((number) => {
+    document.querySelector('h3').innerText = myArray.find((number) => {
       return number > 18
     })
 

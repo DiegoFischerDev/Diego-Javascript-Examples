@@ -1,0 +1,27 @@
+<!-- Definition and Usage
+The includes() method returns true if an array contains a specified value.
+
+The includes() method returns false if the value is not found.
+
+The includes() method is case sensitive. -->
+
+<!DOCTYPE html>
+<body>
+ 
+  <h1>Includes Example</h1>
+  <h2>myArray = ["Jhon", "Maria", "Bolsonaro", "Lula"];</h2>
+  <h3></h3>
+
+  <script>
+
+    const myArray = ["Jhon", "Maria", "Bolsonaro", "Lula"];
+
+    let result = myArray.includes("Maria");
+
+    document.querySelector('h3').innerText = `does myArray includes "Maria"? ${result}`
+
+
+  </script>
+
+</body>
+</html>

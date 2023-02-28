@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<body>
+ 
+  <h1>StartsWith and EndsWith</h1>
+  <h2>Name = "Matheus"</h2>
+
+  <h2>The name starst with "Mat" ?</h2>
+  <h3></h3>
+
+  <h2>The name ends with "Mat" ?</h2>
+  <h3></h3>
+
+  <script>
+
+    const name = "Matheus";
+
+    const answers = document.querySelectorAll('h3');
+
+    answers[0].innerText = name.startsWith("Mat");
+    answers[1].innerText = name.endsWith("Mat");
+
+
+  </script>
+
+</body>
+</html>
