@@ -1,0 +1,32 @@
+<!-- Definition and Usage
+The replace() method searches a string for a value or a regular expression.
+
+The replace() method returns a new string with the value(s) replaced.
+
+The replace() method does not change the original string. -->
+
+
+<!DOCTYPE html>
+<body>
+ 
+  <h1>Split Example For String</h1>
+  <h2></h2>
+  <h2></h2>
+  
+
+  <script>
+
+    const name = "Diego Fischer";
+
+    const changeLastName = name.replace("Fischer", "Araujo")
+
+    const h2 = document.querySelectorAll('h2');
+
+    h2[0].innerText = name;
+    h2[1].innerText = changeLastName;
+    
+
+  </script>
+
+</body>
+</html>

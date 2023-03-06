@@ -1,0 +1,37 @@
+<!-- Definition and Usage
+The slice() method returns selected elements in an array, as a new array.
+
+The slice() method selects from a given start, up to a (not inclusive) given end.
+
+The slice() method does not change the original array. -->
+
+
+<!DOCTYPE html>
+<body>
+ 
+  <h1>Slice Example For String</h1>
+  <h2></h2>
+  <h2></h2>
+  <h2></h2>
+  
+
+  <script>
+
+    const name = "Diego Fischer";
+
+    const fistName = name.slice(0, 5);
+    const lastName = name.slice(6, 13);
+
+    const h2 = document.querySelectorAll('h2');
+
+    h2[0].innerText = name;
+    h2[1].innerText = fistName;
+    h2[2].innerText = lastName;
+    
+
+
+
+  </script>
+
+</body>
+</html>
