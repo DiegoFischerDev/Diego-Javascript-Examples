@@ -53,6 +53,10 @@ In this repository I present simple examples for the main **javascript methods**
 [array.filter](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Array%20Manipulation/Filter.html) --- Returns an array of elements that pass the test. If no elements pass the test it returns an empty array.   
 [array.includes](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Array%20Manipulation/Includes.html) --- Returns true if the value is found, otherwise false.   
 [endsWith and startsWith](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Array%20Manipulation/StartsWith-EndsWith.html) --- Returns true if the string starts with given characters, otherwise false.     
+[string.replace](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Array%20Manipulation/Replace.html) --- Returns a new string where the specified value(s) has been replaced.   
+[string.slice](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Array%20Manipulation/Slice.html) --- Returns an extracted part of the string.   
+[string.split](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Array%20Manipulation/Split.html) --- Returns an array containing the splitted values.   
+
 
 
 
