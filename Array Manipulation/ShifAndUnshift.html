@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<body>
+ 
+  <h1>Shift and Unshift</h1><br>
+  <h2>array = ["Diego", "Guilherme", "Natali"]</h2>
+  <h3></h3>
+  <h3></h3>
+  <h3></h3>
+  <h3></h3>
+
+  <script>
+
+    const h3 = document.querySelectorAll('h3');
+
+    let array = ["Diego", "Guilherme", "Natali"];
+   
+    array.unshift("Ravi");
+
+    h3[0].innerText = `array.unshift("Ravi") ====> ${array} `
+
+    array.unshift("Arthur");
+
+    h3[1].innerText = `array.unshift("Arthur") ====> ${array} `
+
+    let removed = array.shift();
+
+    h3[2].innerText = `array.shift() ====> ${array} `
+
+    h3[3].innerText = `it removed ====> ${removed} `
+
+
+
+  </script>
+
+</body>
+</html>

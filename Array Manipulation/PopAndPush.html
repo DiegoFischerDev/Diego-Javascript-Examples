@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<body>
+ 
+  <h1>POP and PUSH</h1><br>
+  <h2>array = ["Diego", "Guilherme", "Natali"]</h2>
+  <h3></h3>
+  <h3></h3>
+  <h3></h3>
+  <h3></h3>
+
+  <script>
+
+    const h3 = document.querySelectorAll('h3');
+
+    let array = ["Diego", "Guilherme", "Natali"];
+   
+    array.push("Ravi");
+
+    h3[0].innerText = `array.push("Ravi") ====> ${array} `
+
+    array.push("Arthur");
+
+    h3[1].innerText = `array.push("Arthur") ====> ${array} `
+
+    let removed = array.pop();
+
+    h3[2].innerText = `array.pop() ====> ${array} `
+
+    h3[3].innerText = `it removed ====> ${removed} `
+
+
+
+  </script>
+
+</body>
+</html>
