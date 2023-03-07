@@ -59,6 +59,13 @@ In this repository I present simple examples for the main **javascript methods**
 [array.pop and array.push](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Array%20Manipulation/PopAndPush.html) --- It removes ou adds an element at the end of the array   
 [array.shift and array.unshift](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Array%20Manipulation/ShifAndUnshift.html) --- It removes ou adds an element at the beginning of the array   
 
+:small_blue_diamond: **Using API**   
+
+[fetch](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/API/FetchGet.html) --- Basic fetch request   
+[axios.get](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/API/AxiosGet.html) --- Basic axios request   
+
+
+
 
 
 
