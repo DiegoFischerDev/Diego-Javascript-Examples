@@ -56,6 +56,8 @@ In this repository I present simple examples for the main **javascript methods**
 [string.replace](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Array%20Manipulation/Replace.html) --- Returns a new string where the specified value(s) has been replaced.   
 [string.slice](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Array%20Manipulation/Slice.html) --- Returns an extracted part of the string.   
 [string.split](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Array%20Manipulation/Split.html) --- Returns an array containing the splitted values.   
+[array.pop and array.push](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Array%20Manipulation/PopAndPush.html) --- It removes ou adds an element at the end of the array   
+[array.shift and array.unshift](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/Array%20Manipulation/ShifAndUnshift.html) --- It removes ou adds an element at the beginning of the array   
 
 
 
