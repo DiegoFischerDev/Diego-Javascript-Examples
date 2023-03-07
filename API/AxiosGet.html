@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fetch GET - API</title>
+  <style>
+    li {
+      margin: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Star Wars Films</h1>
+  
+  <ul id="app">
+
+  </ul>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script>
+    // URL: https://swapi.dev/api/films/
+
+    let listElement = document.querySelector('#app');
+
+    let posts = [];
+
+    nutriApp()
+
+    function nutriApp() {
+
+      axios.get("https://swapi.dev/api/films/")
+      .then((response) => RenderPosts(response.data.results))
+      .catch(() => {console.log("erro")})
+
+    }
+
+    function RenderPosts(posts){
+
+      posts.map((item)=>{
+        let newPost = document.createElement("li");
+        newPost.innerText = item.title;
+        listElement.appendChild(newPost);
+      })
+
+    }
+
+
+  </script>
+</body>
+</html>

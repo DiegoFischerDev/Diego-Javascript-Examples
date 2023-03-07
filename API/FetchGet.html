@@ -4,12 +4,17 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cnsumindo API externa</title>
+  <title>Fetch GET - API</title>
   <style>
-
+    li {
+      margin: 10px;
+    }
   </style>
 </head>
+
 <body>
+
+  <h1>My Blog</h1>
   
   <ul id="app">
 
@@ -22,24 +27,29 @@
 
     let posts = [];
 
+    nutriApp()
+
     function nutriApp() {
 
       fetch("https://sujeitoprogramador.com/rn-api/?api=posts")
       .then((response) => response.json())
       .then((json) => {
         posts = json;
-        console.log(posts)
-        
+        RenderPosts(posts)
       })
       .catch(() => {console.log("erro")})
 
     }
 
-    nutriApp()
+    function RenderPosts(posts){
 
-    
+      posts.map((item)=>{
+        let newPost = document.createElement("li");
+        newPost.innerText = item.titulo;
+        listElement.appendChild(newPost);
+      })
 
-    
+    }
 
 
   </script>
