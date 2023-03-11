@@ -64,6 +64,10 @@ In this repository I present simple examples for the main **javascript methods**
 [fetch](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/API/FetchGet.html) --- Basic fetch request   
 [axios.get](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/API/AxiosGet.html) --- Basic axios request   
 
+:small_blue_diamond: **Medias mp3 and mp4**   
+
+[New Audio()](https://github.com/DiegoFischerDev/Diego-Javascript-Examples/blob/main/mp3%20and%20mp4/New%20Audio) --- Creates a new mp3 audio element   
+
 
 
 
