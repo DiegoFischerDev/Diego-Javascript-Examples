@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+
+<body>
+
+  <h1>Play Music</h1>
+
+  <button id="play">Play</button>
+  <button id="stop">Stop</button>
+
+  <button id="alert">Alert Sound</button>
+
+  <script>
+
+    let playButton = document.querySelector("#play");
+    let stopButton = document.querySelector("#stop");
+    let alertButton = document.querySelector("#alert");
+    let music = new Audio();
+    let sound = new Audio();
+
+    playButton.addEventListener('click', playMusic);
+    stopButton.addEventListener('click', stopMusic);
+    alertButton.addEventListener('click', alertSound);
+
+    function playMusic(){
+      music.src = "http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3"
+      music.play();
+    }
+
+    function stopMusic(){
+      music.pause();
+    }
+
+    function alertSound(){
+      sound.src = "http://commondatastorage.googleapis.com/codeskulptor-assets/jump.ogg"
+      sound.play();
+    }
+
+  </script>
+</body>
+
+</html>
